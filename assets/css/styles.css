@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  .navbar-expand-md .navbar-collapse {
+    backdrop-filter: blur(10px)!important;
+    -webkit-backdrop-filter: blur(10px)!important;
+    background-color: rgba(14,14,14, 0.9);
+  }
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: var(--bs-dropdown-link-hover-color);
+  background-color: #6c0b0b;
+}
+
+@media (max-width:768px) {
+  .bello, .carto {
+    display: none;
+  }
+}
+

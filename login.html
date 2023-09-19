@@ -8,28 +8,25 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
     <link rel="stylesheet" href="assets/css/swiper-icons.css">
-    <link rel="stylesheet" href="assets/css/Login-Box-En-login-box-en.css">
-    <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-Dark-icons.css">
-    <link rel="stylesheet" href="assets/css/Simple-Slider-swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="assets/css/Black-Navbar.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/loginform.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/account.css">
 </head>
 
-<body style="background: url(&quot;assets/img/infinity.jpg&quot;) top / cover no-repeat, transparent;">
-    <nav class="navbar navbar-dark navbar-expand-md fixed-top py-3" style="background: rgba(0,0,0,0.6);height: 55px;backdrop-filter: opacity(1) blur(10px);-webkit-backdrop-filter: opacity(1) blur(10px);border-bottom: 1px solid rgb(35,35,35);">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span style="font-family: ABeeZee, sans-serif;">Interastral <img src="assets/img/LogoQ.png" width="41" height="39">&nbsp;Marketplace</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse text-start flex-grow-0 order-md-first" id="navcol-3">
+<body style="background: url(&quot;assets/img/pier.jpg&quot;) top / cover no-repeat, transparent;">
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top py-3" style="backdrop-filter: blur(10px);-webkit-backdrop-filter: blur(10px);height: 55px;background: rgba(14,14,14, 0.8);border-bottom: 1px solid rgba(255,255,255,0.2);">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#" style="padding-bottom: 10px;"><img src="assets/img/LogoQO.png" width="27" height="27" style="margin-right: 3%;"><span style="margin-bottom: 3px;margin-right: 20px;">Interastral Marketplace</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2" style="border-radius: 0px;border-width: 0px;"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon" style="width: 25px;height: 29px;margin-bottom: 7px;"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-2" style="padding-left: 20px;padding-bottom: 5px;border-radius: 1px;border: 1px solid transparent;">
                 <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link active" href="indexadmin.html">Store</a></li>
+                    <li class="nav-item"><a class="nav-link active" type="button" style="color: rgb(255,255,255);" href="../unlogged/index.html">Store</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
-                </ul>
-                <div class="d-md-none my-2"><button class="btn btn-light me-2" type="button">Button</button><button class="btn btn-primary" type="button">Button</button></div>
-            </div>
-            <div class="d-none d-md-block"><a class="btn me-2" role="button" href="../login.html" style="color: rgb(255,255,255);">Log in</a><a class="btn" role="button" href="../signup.html" style="background: transparent;color: rgb(255,255,255);">Sign Up</a>
-                <div class="dropdown" href="../signup.html" style="background: transparent;color: rgb(255,255,255);"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="border-color: rgb(255,255,255);color: rgb(255,255,255);text-decoration: none;font-size: 16px;display: none;font-family: Lato, sans-serif;">Username</a>
-                    <div class="dropdown-menu" style="background: #444444;"><a class="dropdown-item" href="#" style="color: rgb(255,255,255);">Purchase History</a><a class="dropdown-item" href="#" style="color: rgb(255,255,255);">Account Settings</a><a class="dropdown-item" href="#" style="color: rgb(255,255,255);">Log out&nbsp;</a></div>
-                </div>
+                    <li class="nav-item"><a class="nav-link text-start" href="#">Support</a></li>
+                </ul><a class="btn" role="button" style="color: rgb(255,255,255);background: #6c0b0b;height: 34px;padding: 5px;border-radius: 10px;" href="../login.html">Log in</a><a class="btn" role="button" style="color: rgb(255,255,255);margin-left: 5px;padding-left: 6px;padding-right: 6px;" href="../signup.html">Sign Up</a>
             </div>
         </div>
     </nav>
@@ -39,7 +36,7 @@
                 <h4 style="color: #0e0e0e;margin-bottom: 0px;font-weight: 400;font-size: 27px;font-family: Lato, sans-serif;">&nbsp;<span style="font-family: ABeeZee, sans-serif;color: rgb(255,255,255);"><img src="assets/img/LogoQ.png" width="41" height="39">&nbsp;Interastral Peace Corporation</span></h4>
             </div>
             <div class="email-login" style="background-color: #ffffff;margin-top: 15px;"><span class="text-start" style="font-size: 19px;font-family: Lato, sans-serif;">Log in to an IPC&nbsp;Account!<input type="text" id="username" class="form-control" style="margin-top: 10px;font-size: 14px;height: 30px;" required="" placeholder="Username" minlength="6"></span><input type="password" id="pass" class="password-input form-control" style="margin-top: 10px;font-size: 14px;height: 30px;" required="" placeholder="Password" minlength="6"></div>
-            <div class="submit-row" style="margin-bottom: 8px;padding-top: 0px;"><button class="btn btn-primary d-block box-shadow w-100" id="submit" type="submit" style="background: #0e0e0e;margin-top: 10px;font-size: 14px;">Log in</button></div>
+            <div class="text-start submit-row" style="margin-bottom: 8px;padding-top: 0px;"><span id="invalidlogin" class="invalidator" style="font-size: 14px;color: #ff2828;font-family: Lato, sans-serif;display: none;">Invalid Username or Password</span><button class="btn d-block box-shadow w-100 loginbtn" id="submit" style="margin-top: 0px;font-size: 14px;color: rgb(255,255,255);background: rgb(7,7,7);">Log in</button></div>
             <div id="login-box-footer" style="padding: 10px 20px;padding-bottom: 23px;padding-top: 18px;">
                 <p style="margin-bottom: 0px;font-size: 14px;">Don't have an account?<a id="register-link" href="signup.html">Sign Up</a></p>
             </div>
@@ -47,9 +44,10 @@
     </main>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/admin.js"></script>
-    <script src="assets/js/Simple-Slider-swiper-bundle.min.js"></script>
-    <script src="assets/js/Simple-Slider.js"></script>
+    <script src="assets/js/sliders-swipers.js"></script>
+    <script src="assets/js/sliders.js"></script>
     <script src="assets/js/login.js"></script>
+    <script src="assets/js/signup.js"></script>
 </body>
 
 </html>
