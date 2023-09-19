@@ -56,7 +56,7 @@ btns.onclick = function() {
         window.location.href = "adminpg/indexadmin.html";
     }
 
-    if (stuCheck() && stupassCheck() == true) {
+    else if (stuCheck() && stupassCheck() == true) {
         alert('Welcome, student1');
         window.location.href = "userpg/indexuser.html";
     }
