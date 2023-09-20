@@ -53,12 +53,12 @@ btns.onclick = function() {
 
     if (adminCheck() && passCheck() == true) {
         alert('Welcome, Administrator');
-        window.location.href = "adminpg/indexadmin.html";
+        window.location.href = "indexadmin.html";
     }
 
     else if (stuCheck() && stupassCheck() == true) {
         alert('Welcome, student1');
-        window.location.href = "userpg/indexuser.html";
+        window.location.href = "indexuser.html";
     }
     
     else {

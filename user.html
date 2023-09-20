@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>InterAstral Marketplace</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
+    <link rel="stylesheet" href="assets/css/swiper-icons.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/Black-Navbar.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
+    <link rel="stylesheet" href="assets/css/loginform.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/account.css">
+    <link rel="stylesheet" href="assets/css/pricingbadge.css">
+    <link rel="stylesheet" href="assets/css/Team-icons.css">
+</head>
+
+<body style="background: url(&quot;assets/img/HEX.png&quot;);">
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top py-3" style="backdrop-filter: blur(10px);-webkit-backdrop-filter: blur(10px);height: 55px;background: rgba(14,14,14, 0.8);border-bottom: 1px solid rgba(255,255,255,0.2);">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#" style="padding-bottom: 10px;"><img src="assets/img/LogoQO.png" width="27" height="27" style="margin-right: 3%;"><span style="margin-bottom: 3px;margin-right: 20px;">Interastral Marketplace</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" style="border-radius: 0px;border-width: 0px;"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon" style="width: 25px;height: 29px;margin-bottom: 7px;"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1" style="padding-left: 20px;padding-bottom: 5px;border-radius: 1px;border: 1px solid transparent;">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" type="button" style="color: rgb(255,255,255);" href="indexuser.html">Store</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutususer.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link text-start" href="supportuser.html">Support</a></li>
+                </ul>
+                <div class="dropdown"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="text-decoration: none;border-color: transparent;color: rgb(255,255,255);">student1&nbsp;</a>
+                    <div class="dropdown-menu" style="border-radius: 0px;backdrop-filter: blur(10px);-webkit-backdrop-filter: blur(10px);background: rgba(14,14,14, 1);margin-top: 3px;font-size: 14px;"><a class="dropdown-item" href="user.html" style="color: rgb(255,255,255);">Dashboard</a><a class="dropdown-item" href="index.html" style="color: rgb(255,255,255);">Log out</a></div>
+                </div><i class="fas fa-user-tie" style="color: rgb(255,255,255);margin-right: 1%;margin-left: 1%;"></i><a class="btn" role="button" style="color: rgb(255,255,255);background: #f26d02;height: 34px;padding: 5px;border-radius: 10px;display: none;" href="../auth/login.html">Log in</a><a class="btn" role="button" style="color: rgb(255,255,255);margin-left: 5px;padding-left: 6px;padding-right: 6px;display: none;" href="../auth/signup.html">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+    <div class="row" style="height: 55px;background: rgb(9,10,16);--bs-gutter-x: 0rem;"></div>
+    <main>
+        <div class="container" style="margin-top: 30px;">
+            <div class="row">
+                <div class="col"><span style="font-size: 20px;font-weight: bold;font-family: Lato, sans-serif;">Welcome to the your IPC Dashboard,&nbsp;<span>student1!</span></span></div>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+                <div class="col text-start" style="background: #0e0e0e;padding: 0px;height: 100%;"><button class="btn" id="btnnews" type="button" style="color: #0e0e0e;margin-right: 0px;width: 200px;border-radius: 0px;background: #d0d0d0;border-color: #d0d0d0;">Account Settings</button><button class="btn btnprod" id="btnproducts" type="submit" style="color: rgb(255,255,255);margin-right: 0px;width: 200px;background: #0e0e0e;border-radius: 0px;">Purchase History</button><button class="btn" type="button" style="color: rgb(255,255,255);margin-right: 0px;width: 200px;">Payment Information</button></div>
+            </div>
+            <div class="row" id="news" style="background: #d0d0d0;padding-bottom: 15px;">
+                <div class="col" style="padding-top: 0px;padding-bottom: 0px;margin-bottom: 0px;margin-top: -10px;">
+                    <div class="row" style="margin-top: 10px;">
+                        <div class="col" style="padding-top: 10px;"><div class="container">
+    <div class="row gutters">
+    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+    <div class="card h-100">
+        <div class="card-body">
+            <div class="account-settings">
+                <div class="user-profile">
+                    <div class="user-avatar">
+                        <img src="assets/img/studentprof.jpg" alt="John Doe">
+                    </div>
+                    <h5 class="user-name">John Doe (student1)</h5>
+                    <h6 class="user-email">johndoe@ipmail.com</h6>
+                </div>
+                <div class="about">
+                    <h5 style="color: red;">About</h5>
+                    <p>Life is but a dance of cosmic accidents. Make it count and
+                        make it worth your while!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+    <div class="card h-100">
+        <div class="card-body">
+            <div class="row gutters">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <h6 class="mb-2" style="color: red;">Personal Details</h6>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" value="John Doe" disabled>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="form-group">
+                        <label for="eMail">Email</label>
+                        <input type="email" class="form-control" id="eMail" value="johndoe@ipmail.com" disabled>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="form-group" style="margin-top: 10px;">
+                        <label for="phone">Phone</label>
+                        <input type="text" class="form-control" id="phone" value="+101-112-382038-1120" disabled>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="form-group" style="margin-top: 10px;">
+                        <label for="website">Birthdate</label>
+                        <input type="url" class="form-control" id="website" value="March 7, 2077" disabled>
+                    </div>
+                </div>
+            </div>
+            <div class="row gutters">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <h6 class="mt-3 mb-2" style="color: red;">Address</h6>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="form-group">
+                        <label for="Street">Planet</label>
+                        <input type="name" class="form-control" id="Street" value="Earth" disabled>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="form-group">
+                        <label for="ciTy">Star System</label>
+                        <input type="name" class="form-control" id="ciTy" value="Sol" disabled>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="form-group" style="margin-top: 10px;">
+                        <label for="sTate">Galaxy</label>
+                        <input type="text" class="form-control" id="sTate" value="Milky Way" disabled>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="form-group" style="margin-top: 10px;">
+                        <label for="zIp">Universe</label>
+                        <input type="text" class="form-control" id="zIp" value="Umbra Cieli" disabled>
+                    </div>
+                </div>
+            </div>
+            <div class="row gutters" style="margin-top: 10px;">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="text-right">
+                        <button type="button" id="submit" name="submit" class="btn" style="color: white;background-color: rgb(33,37,41);">Cancel</button>
+                        <button type="button" id="submit" name="submit" class="btn" style="color: white;background-color: rgb(33,37,41);">Update</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="products" style="background: #d0d0d0;padding-bottom: 15px;display: none;">
+                <div class="col" style="padding-top: 10px;padding-bottom: 0px;margin-bottom: 0px;">
+                    <div class="row" style="margin-top: 0px;">
+                        <div class="col">
+                            <ul class="list-group" style="background: #e8e8e8;border-radius: 0px;font-size: 14px;"></ul>
+                        </div>
+                    </div>
+                    <ul class="list-group" style="background: #e8e8e8;border-radius: 0px;">
+                        <li class="list-group-item" style="background: #e8e8e8;">
+                            <div class="row">
+                                <div class="col" style="text-align: left;">
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span style="font-weight: bold;">RadiantTech Portable Nuclear Reactor 100T-343V with Tri-Fusion Core and Active Plasma Containment</span></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span>Date Purchased:&nbsp;<span class="t" style="font-weight: bold;">September 20, 2023</span>&nbsp; |&nbsp; Status: <strong>In Transit</strong></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-1">
+                                    <div class="row">
+                                        <div class="col"><a href="raduser.html" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-search-plus" style="font-size: 12px;margin-right: 5px;"></i>View</a></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-shopping-cart" style="font-size: 12px;margin-right: 8px;"></i>Buy Again</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background: #e8e8e8;">
+                            <div class="row">
+                                <div class="col" style="text-align: left;">
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span style="font-weight: bold;">HoloLux Holoview Holo-Entertainment System with Quantum Holographic Processor (Model: HX-7000)</span></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span>Date Purchased:&nbsp;<span class="t" style="font-weight: bold;">September 17, 2023</span>&nbsp; |&nbsp; Status: <strong>Delivered</strong></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-1">
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-search-plus" style="font-size: 12px;margin-right: 5px;"></i>View</a></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-shopping-cart" style="font-size: 12px;margin-right: 8px;"></i>Buy Again</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background: #e8e8e8;">
+                            <div class="row">
+                                <div class="col" style="text-align: left;">
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span style="font-weight: bold;">SaberGlow Lumislice Lightsaber Replica with Kyber Crystal Chamber and Vortech Blade Stabilization</span></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span>Date Purchased:&nbsp;<span class="t" style="font-weight: bold;">September 14, 2023</span>&nbsp; |&nbsp; Status: <strong>Delivered</strong></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-1">
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-search-plus" style="font-size: 12px;margin-right: 5px;"></i>View</a></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-shopping-cart" style="font-size: 12px;margin-right: 8px;"></i>Buy Again</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background: #e8e8e8;">
+                            <div class="row">
+                                <div class="col" style="text-align: left;">
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span style="font-weight: bold;">AstroCom AstraBot AI Astro-Drone Companion with Multi-Spectrum Sensors and Neural Network AI</span></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span>Date Purchased:&nbsp;<span class="t" style="font-weight: bold;">September 14, 2023</span>&nbsp; |&nbsp; Status: <strong>Delivered</strong></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-1">
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-search-plus" style="font-size: 12px;margin-right: 5px;"></i>View</a></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-shopping-cart" style="font-size: 12px;margin-right: 8px;"></i>Buy Again</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background: #e8e8e8;">
+                            <div class="row">
+                                <div class="col" style="text-align: left;">
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span style="font-weight: bold;">CyberSync BioLink Biometric Cybernetic Implant with Neural Interface and Opti-Gaze Retinal Enhancements</span></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span>Date Purchased:&nbsp;<span class="t" style="font-weight: bold;">September 13, 2023</span>&nbsp; |&nbsp; Status: <strong>Delivered</strong></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-1">
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-search-plus" style="font-size: 12px;margin-right: 5px;"></i>View</a></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-shopping-cart" style="font-size: 12px;margin-right: 8px;"></i>Buy Again</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background: #e8e8e8;">
+                            <div class="row">
+                                <div class="col" style="text-align: left;">
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span style="font-weight: bold;">PenguLingo AlienSpeak Language Translator with Universal Integration Matrix and Neural Dialect Analysis</span></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span>Date Purchased:&nbsp;<span class="t" style="font-weight: bold;">September 13, 2023</span>&nbsp; |&nbsp; Status: <strong>Delivered</strong></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-1">
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-search-plus" style="font-size: 12px;margin-right: 5px;"></i>View</a></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-shopping-cart" style="font-size: 12px;margin-right: 8px;"></i>Buy Again</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background: #e8e8e8;">
+                            <div class="row">
+                                <div class="col" style="text-align: left;">
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span style="font-weight: bold;">Levitas Floatwear Anti-Gravity Apparel with Gravitech Levitation Technology and Nano-Fiber Weave</span></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span>Date Purchased:&nbsp;<span class="t" style="font-weight: bold;">September 13, 2023</span>&nbsp; |&nbsp; Status: <strong>Delivered</strong></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-1">
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-search-plus" style="font-size: 12px;margin-right: 5px;"></i>View</a></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-shopping-cart" style="font-size: 12px;margin-right: 8px;"></i>Buy Again</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background: #e8e8e8;">
+                            <div class="row">
+                                <div class="col" style="text-align: left;">
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span style="font-weight: bold;">SynthoPet NebuPal Hyper-Reality Pet Companion with Bio-Organic AI and Emotional Feedback System</span></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span>Date Purchased:&nbsp;<span class="t" style="font-weight: bold;">September 12, 2023</span>&nbsp; |&nbsp; Status: <strong>Delivered</strong></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-1">
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-search-plus" style="font-size: 12px;margin-right: 5px;"></i>View</a></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-shopping-cart" style="font-size: 12px;margin-right: 8px;"></i>Buy Again</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background: #e8e8e8;">
+                            <div class="row">
+                                <div class="col" style="text-align: left;">
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span style="font-weight: bold;">HoloArchives ChronoCube Portable Holocron Archive Device with Temporal Stabilization Matrix and Infinite Data Storage</span></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span>Date Purchased:&nbsp;<span class="t" style="font-weight: bold;">September 11, 2023</span>&nbsp; |&nbsp; Status: <strong>Delivered</strong></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-1">
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-search-plus" style="font-size: 12px;margin-right: 5px;"></i>View</a></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-shopping-cart" style="font-size: 12px;margin-right: 8px;"></i>Buy Again</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background: #e8e8e8;">
+                            <div class="row">
+                                <div class="col" style="text-align: left;">
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span style="font-weight: bold;">StarQuest GalaxiTour Interstellar Travel Package with Quantum Warp Drive and LuxeZero-Gravity Suites</span></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col" style="font-size: 14px;"><span>Date Purchased:&nbsp;<span class="t" style="font-weight: bold;">September 10, 2023</span>&nbsp; |&nbsp; Status: <strong>Delivered</strong></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-1">
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-search-plus" style="font-size: 12px;margin-right: 5px;"></i>View</a></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col"><a href="#" style="text-decoration: none;color: rgb(0,0,0);font-size: 12px;"><i class="fas fa-shopping-cart" style="font-size: 12px;margin-right: 8px;"></i>Buy Again</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background: #0e0e0e;"><span style="color: rgb(255,255,255);font-size: 14px;">Total Items:&nbsp;<span><strong>10</strong></span>&nbsp;</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/admin.js"></script>
+    <script src="assets/js/sliders-swipers.js"></script>
+    <script src="assets/js/sliders.js"></script>
+    <script src="assets/js/login.js"></script>
+    <script src="assets/js/signup.js"></script>
+    <script src="assets/js/general.js"></script>
+</body>
+
+</html>

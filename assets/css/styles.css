@@ -17,3 +17,11 @@
   }
 }
 
+.categ {
+  display: none;
+}
+
+.linkcat:hover {
+  color: #ffffff!important;
+}
+
